@@ -1,0 +1,27 @@
+title: 千秋梧的个人主页
+description: 热爱技术，追求卓越
+baseurl: ""
+url: "https://mM-qian.github.io"
+author:
+  name: 千秋梧
+  email: your@email.com
+  github: mM-qian
+
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+markdown: kramdown
+highlighter: rouge
+
+permalink: /:title/
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
